@@ -13,7 +13,7 @@
                     name="sign_oca"
                     data-string="Sign Oca"
                     string="Sign Oca"
-                    groups="sign_oca.sign_oca_group_admin"
+                    groups="sign_oca_group_admin"
                 >
                     <block id="sign_oca_requests" title="Sign Requests">
                         <setting

@@ -29,7 +29,7 @@
                         invisible="state not in ['1_draft', '0_sent', '2_signed']"
                         name="cancel"
                         confirm="You will cancel the request and all the accesses. Are you sure about it?"
-                        groups="sign_oca.sign_oca_group_user"
+                        groups="sign_oca_group_user"
                     />
                     <field
                         name="state"
@@ -46,7 +46,7 @@
                             class="oe_stat_button"
                             icon="fa-pencil"
                             invisible="state not in ['0_sent', '2_signed']"
-                            groups="sign_oca.sign_oca_group_user"
+                            groups="sign_oca_group_user"
                         >
                             <div class="o_field_widget o_stat_info">
                                 <span class="o_stat_value"><field
@@ -63,7 +63,7 @@
                             name="configure"
                             type="object"
                             string="Configure"
-                            groups="sign_oca.sign_oca_group_user"
+                            groups="sign_oca_group_user"
                         />
                         <button
                             class="oe_stat_button"
@@ -71,7 +71,7 @@
                             name="%(sign_oca_request_log_act_window)s"
                             type="action"
                             string="Activity Log"
-                            groups="sign_oca.sign_oca_group_user"
+                            groups="sign_oca_group_user"
                         />
                     </div>
                     <field name="active" invisible="1" />
