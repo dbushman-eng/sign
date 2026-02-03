@@ -190,7 +190,7 @@
                     string="Archived"
                     domain="[('active', '=', False)]"
                 />
-                <group expand="0" string="Group By">
+                <group string="Group By">
                     <filter
                         name="group_by_template_id"
                         string="Template"
@@ -409,7 +409,7 @@
             <search>
                 <field name="request_id" />
                 <separator />
-                <group expand="0" string="Group By">
+                <group string="Group By">
                     <filter
                         name="group_by_create_date"
                         string="Create date"
